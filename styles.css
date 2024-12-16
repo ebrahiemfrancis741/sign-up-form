@@ -150,3 +150,16 @@ fieldset p{
     color: #596D48;
     text-decoration: none;
 }
+
+p.credit{
+    color: white;
+    position: absolute;
+    bottom:1%;
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+}
+
+p.credit a{
+    color: white;
+}
