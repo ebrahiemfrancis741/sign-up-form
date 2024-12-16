@@ -43,7 +43,7 @@ em{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
     background-color: rgb(240, 240, 240);
 }
 
@@ -128,7 +128,12 @@ fieldset p{
 }
 
 .form-row input:focus{
+    border: 1px solid blue;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
 
+.form-row input[type="password"]:invlaid{
+    border: 1px solid red;
 }
 
 .form-row > div{
@@ -137,7 +142,7 @@ fieldset p{
     gap: 2px;
 }
 
-#form-area:nth-last-child(1){
+#form-area span.question {
     font-weight: 100;
 }
 
